@@ -1,5 +1,5 @@
-# v_camp-design-partners
-Este exercício tem o objetivo exercitar a aplicar os conceitos de Design Partners, SOLID e Teste Unitário em um cenário que todos nós conhecemos, sabemos que alguns dos exemplos abaixo é um exemplo clássico de *_overengineering_* utilizando os padrões, mas com certeza ajudará bastante na consolidação dos conhecimentos.
+# v_camp-design-parttners
+Este exercício tem o objetivo exercitar a aplicar os conceitos de Design Parttners, SOLID e Teste Unitário em um cenário que todos nós conhecemos, sabemos que alguns dos exemplos abaixo é um exemplo clássico de *_overengineering_* utilizando os padrões, mas com certeza ajudará bastante na consolidação dos conhecimentos.
 
 
 ## Requisitos
@@ -32,7 +32,7 @@ Crie as classes `Shipping`, `Aero` and `Road` and utilize o padrão Factory para
 Crie uma classe chamada `OrderList` que utilize o padrão `Iterator` e `Singleton` para armazenar uma lista de instâncias da classe `Order`, que irá ser consumida pela classe `Backoffice` para varrer a listagem de pedidos e exibir os dados referente aos pedidos.
 
 ### Facade: Order
-Crie a classe chamada `Order` que irá receber uma classe do tipo `Cart` and `Shipping` e irá expor os métodos para alteração do status do pedido([`pending`, `paid`, `completed`, `shipped` and `cancelled`]), expondo os métodos referente a essas alterações. Quando o frete for 
+Crie a classe chamada `Order` que irá receber uma classe do tipo `Cart` and `Shipping` e irá expor os métodos para alteração do status do pedido([`pending`, `paid`, `completed`, `shipped` and `cancelled`]), expondo os métodos referente a essas alterações. Essa classe deve ser utilizada para realizar todas as mudanças do pedido.
 
 ### Observer: Backoffice
 Crie uma classe chamada `Backoffice` que irá exibir os dados do pedido a equipe de despacho de pedido, onde sempre que o status do pedido, frete e carrinho forem alterados, o método `renderOrderList` precisa estar inscrito para ser chamado e exibir a listagem de pedidos. 

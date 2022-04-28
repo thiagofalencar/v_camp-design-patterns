@@ -1,5 +1,5 @@
-# v_camp-design-pattners
-Este exercício tem o objetivo exercitar a aplicar os conceitos de Design Pattners, SOLID e Teste Unitário em um cenário que todos nós conhecemos, sabemos que alguns dos exemplos abaixo é um exemplo clássico de *_overengineering_* utilizando os padrões, mas com certeza ajudará bastante na consolidação dos conhecimentos.
+# v_camp-design-patterns
+Este exercício tem o objetivo exercitar a aplicar os conceitos de Design Patterns, SOLID e Teste Unitário em um cenário que todos nós conhecemos, sabemos que alguns dos exemplos abaixo é um exemplo clássico de *_overengineering_* utilizando os padrões, mas com certeza ajudará bastante na consolidação dos conhecimentos.
 
 
 ## Requisitos
